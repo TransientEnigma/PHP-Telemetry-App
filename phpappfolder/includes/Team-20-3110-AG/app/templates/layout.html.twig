@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang=”en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta http-equiv="Content-Language" content="en-gb" />
+        <link rel="stylesheet" href="{{ bootstrap_css_path }}" type="text/css"/>
+        <link rel="stylesheet" href="{{ keypad_css_path }}" type="text/css"/>
+        <link rel="stylesheet" href="{{ images_css_path }}" type="text/css"/>
+        <title>{{ page_title }}</title>
+    </head>
+
+
+    <body>
+    {% block navbar %}{% endblock %}
+    <div class="container">
+        <div class="container">
+    {% block content %}{% endblock %}
+        </div>
+    </div>
+    <script src="{{ bootstrap_jq_path }}"></script>
+    <script src="{{ custom_jq_path }}"></script>
+    <script src="{{ bootstrap_js_path }}"></script>
+    <script src="{{ telemetry_js_path }}"></script>
+    </body>
+<footer class="container"></footer>
+</html>

@@ -1,0 +1,112 @@
+{% extends 'navbar.html.twig' %}
+{% block content %}
+        <h2>{{ page_heading_1 }}</h2>
+        <p>{{ page_text }}</p>
+    <br>
+    <br>
+    <div class="container ">
+        <div class="device-border centre-content rounded-buttons">
+        <form method="POST" action="{{path_for('processsenddata')}}">
+            <fieldset>
+                <div class="centre-temp-controls" >
+                    <button type="button" class="btn btn-primary btn-lg btn-outline-secondary rounded-buttons" name="tempDn" id="tempDn">Temp Dn</button>
+                    <label for="tempValue"></label><input type="text" id="tempValue" name="tempValue" value="0.0" placeholder="Temperature">
+                    <button type="button" class="btn btn-primary btn-lg btn-outline-secondary rounded-buttons" name="tempUp" id="tempUp">Temp Up</button>
+                </div>
+                <br>
+                <div class="bs-component centre-content rounded-buttons">
+                    <div class="btn-group btn-group-toggle " data-toggle="buttons" >
+                        <div class = "btn-group btn-group-toggle aline-keys-vertically">
+                            <label class="btn btn-primary btn-lg btn-outline-secondary rounded-buttons"  >
+                                <input type="radio" name="keypadControl" id="key1" value="1"  > 1
+                            </label>
+                            <br>
+                            <label class="btn btn-primary btn-lg btn-outline-secondary rounded-buttons">
+                                <input type="radio" name="keypadControl" id="key4" value="4" > 4
+                            </label>
+                            <br>
+                            <label class="btn btn-primary btn-lg btn-outline-secondary rounded-buttons">
+                                <input type="radio" name="keypadControl" id="key7" value="7" > 7
+                            </label>
+                            <br>
+                            <label class="btn btn-primary btn-lg btn-outline-secondary rounded-buttons">
+                                <input type="radio" name="keypadControl" id="blankL" checked="checked" value="null" >  &nbsp;
+                            </label>
+                        </div>
+                        <div class = "btn-group btn-group-toggle aline-keys-vertically">
+                            <label class="btn btn-primary btn-lg btn-outline-secondary rounded-buttons">
+                                <input type="radio" name="keypadControl" id="key2" value="2" > 2
+                            </label>
+                            <br>
+                            <label class="btn btn-primary btn-lg btn-outline-secondary rounded-buttons">
+                                <input type="radio" name="keypadControl" id="key5" value="5" > 5
+                            </label>
+                            <br>
+                            <label class="btn btn-primary btn-lg btn-outline-secondary rounded-buttons">
+                                <input type="radio" name="keypadControl" id="key8" value="8" > 8
+                            </label>
+                            <br>
+                            <label class="btn btn-primary btn-lg btn-outline-secondary rounded-buttons">
+                                <input type="radio" name="keypadControl" id="key0" value="0" > 0
+                            </label>
+                        </div>
+                        <div class = "btn-group btn-group-toggle aline-keys-vertically">
+                            <label class="btn btn-primary btn-lg btn-outline-secondary rounded-buttons">
+                                <input type="radio" name="keypadControl" id="key3" value="3" > 3
+                            </label>
+                            <br>
+                            <label class="btn btn-primary btn-lg btn-outline-secondary rounded-buttons">
+                                <input type="radio" name="keypadControl" id="key6" value="6" > 6
+                            </label>
+                            <br>
+                            <label class="btn btn-primary btn-lg active btn-outline-secondary rounded-buttons">
+                                <input type="radio" name="keypadControl" id="key9" value="9" > 9
+                            </label>
+                            <br>
+                            <label class="btn btn-primary btn-lg btn-outline-secondary rounded-buttons">
+                                <input type="radio" name="keypadControl" id="blankR" value="null" > &nbsp;
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="bs-component mb-3 centre-motor-controls">
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-primary btn-lg btn-outline-secondary rounded-buttons">
+                            <input type="radio" name="motorControl" value="motorFwd" autocomplete="off"> Forward
+                        </label>
+                        <label class="btn btn-primary btn-lg btn-outline-secondary rounded-buttons">
+                            <input type="radio" name="motorControl" value="null" checked autocomplete="off"> 	&diams;
+                        </label>
+                        <label class="btn btn-primary btn-lg btn-outline-secondary rounded-buttons">
+                            <input type="radio" name="motorControl" value="motorRvs" autocomplete="off"> Reverse
+                        </label>
+                    </div>
+                </div>
+                <div class="centre-switch-controls">
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-primary btn-lg btn-outline-secondary rounded-buttons">
+                            <input type="checkbox" name="switchToggle1" id="switchToggle1" autocomplete="off"> SW1
+                        </label>
+                        <input type="hidden" name="switchControl1" id="switchControl1" value="off">
+                        <label class="btn btn-primary btn-lg btn-outline-secondary rounded-buttons">
+                            <input type="checkbox" name="switchToggle2" id="switchToggle2"autocomplete="off"> SW2
+                        </label>
+                        <input type="hidden" name="switchControl2" id="switchControl2" value="off">
+                        <label class="btn btn-primary btn-lg btn-outline-secondary rounded-buttons">
+                            <input type="checkbox" name="switchToggle3" id="switchToggle3" autocomplete="off"> SW3
+                        </label>
+                        <input type="hidden" name="switchControl3" id="switchControl3" value="off">
+                        <label class="btn btn-primary btn-lg btn-outline-secondary rounded-buttons">
+                            <input type="checkbox" name="switchToggle4"id="switchToggle4" autocomplete="off"> SW4
+                        </label>
+                        <input type="hidden" name="switchControl4" id="switchControl4" value="off">
+                    </div>
+                    <input type="hidden" name="device_id" value="AG2">
+                <button type="submit" class="btn btn-primary btn-lg btn-outline-secondary rounded-buttons" name="submit" value="submit">Transmit</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends 'navbar.html.twig' %}
+{% block content %}
+    <div>
+        <h2>{{ page_heading_1 }}</h2>
+        <p>{{ page_text }}</p>
+    </div>
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th scope="col">Temp (&deg; C)</th>
+            <th scope="col">Switch 1 State</th>
+            <th scope="col">Switch 2 State</th>
+            <th scope="col">Switch 3 State</th>
+            <th scope="col">Switch 4 State</th>
+            <th scope="col">Motor (Forward/Reverse)</th>
+            <th scope="col">Keypad Input</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for device in array_of_devices %}
+            <tr>
+                <th scope="row">{{ device.device_temp }}</th>
+                <td>{{ device.switch_1_state}}</td>
+                <td>{{ device.switch_2_state }}</td>
+                <td>{{ device.switch_3_state }}</td>
+                <td>{{ device.switch_4_state}}</td>
+                <td>{{ device.motor_forward_reverse }}</td>
+                <td>{{ device.keypad_input }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

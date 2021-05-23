@@ -1,0 +1,36 @@
+{% extends 'layout.html.twig' %}
+{% block navbar %}
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="{{path_for('homepage')}}">{{ navbar_username }}</a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarColor01" style="">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{{homepage}}">{{ nav_button_homepage }} <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{{autosenddata}}">{{ nav_button_auto }} <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{{senddata}}">{{ nav_button_send }} <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{{readdata}}">{{ nav_button_import}} <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{{viewtelemdata}}">{{ nav_button_view}} <span class="sr-only">(current)</span></a>
+                    </li>
+{#                    <li class="nav-item active">#}
+{#                        <a class="nav-link" href="{{reportdata}}">{{ nav_button_report}} <span class="sr-only">(current)</span></a>#}
+{#                    </li>#}
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{{selectlogin}}">{{ nav_button_login }} <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+{% endblock %}

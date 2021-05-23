@@ -1,0 +1,51 @@
+/**
+ * CSS to further customise views
+ */
+.aline-keys-vertically{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.aline-keys-horizontally{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.centre-content{
+    width: 200px;
+    margin: 0px auto;
+    background-color: #0d2a4a;
+    border: 3px solid #000000;
+    box-shadow: 0 0 20px 20px #000;
+}
+.centre-temp-controls{
+    width: 500px;
+    margin-left: 3%;
+
+}
+
+
+.centre-motor-controls{
+    width: 245px;
+    margin: 0px auto;
+
+}
+.centre-switch-controls{
+    width: 393px;
+    margin: 0px auto;
+
+
+}
+.rounded-buttons{
+    border-color: #062c33;
+    border-radius: 10px;
+}
+.device-border{
+    padding: 2px;
+    width: 450px;
+/*    background-color: #630511; */
+    background-color: #0d2a4a;
+    border: 3px solid #000000;
+    box-shadow: 0 0 20px 20px #000;
+}
+

@@ -1,0 +1,20 @@
+{% extends 'navbar.html.twig' %}
+{% block content %}
+    <div class="container">
+        <h1>{{ page_heading_1 }}</h1>
+
+        <form method="POST" action="{{path_for('processadminlogin')}}">
+            <fieldset>
+                <div class="form-group">
+                    <label class="col-form-label" for="username">Username</label>
+                    <input type="text" class="form-control" placeholder="username" id="username" name="username">
+                </div>
+                <div class="form-group">
+                    <label class="col-form-label" for="password">Password</label>
+                    <input type="password" class="form-control" placeholder="password" id="password" name="password">
+                </div>
+                <button type="submit" class="btn btn-primary" name="submit" value="submit">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends 'navbar.html.twig' %}
+{% block content %}
+    <div>
+        <h2>{{ page_heading_1 }}</h2>
+        <p>{{ page_text }}</p>
+        <a href="{{path_for('viewuserdata')}}"> <button type="button" class="btn btn-primary btn-lg btn-block"> View User Data </button></a>
+        <br>
+        <br>
+        <img class="container-sm" src="{{ image_path }}">
+    </div>
+{% endblock %}

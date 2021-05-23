@@ -1,0 +1,7 @@
+token|i:526160;dbs|a:1:{s:6:"server";a:1:{s:0:"";a:2:{s:0:"";N;s:4:"root";a:5:{i:0;s:18:"information_schema";i:1;s:5:"mysql";i:2;s:10:"p2430705db";i:3;s:9:"p3ttestdb";i:4;s:18:"performance_schema";}}}}pwds|a:1:{s:6:"server";a:1:{s:0:"";a:1:{s:4:"root";a:1:{i:0;s:8:"ÑÕ°¦ÓkV";}}}}db|a:1:{s:6:"server";a:1:{s:0:"";a:1:{s:4:"root";a:1:{s:0:"";b:1;}}}}queries|a:1:{s:6:"server";a:1:{s:0:"";a:1:{s:4:"root";a:1:{s:10:"p2430705db";a:6:{i:0;a:2:{i:0;s:39:"use p2430705db
+select * from tbl_user;";i:1;i:1621784966;}i:1;a:2:{i:0;s:40:"use p2430705db;
+select * from tbl_user;";i:1;i:1621784971;}i:2;a:3:{i:0;s:94:"DELETE FROM `tbl_user`
+WHERE ((`user_id` = '13') OR (`user_id` = '14') OR (`user_id` = '15'));";i:1;i:1621785409;i:2;s:7:"0.002 s";}i:3;a:2:{i:0;s:40:"use p2430705db;
+select * from tbl_user;";i:1;i:1621785430;}i:4;a:3:{i:0;s:50:"DELETE FROM `tbl_user`
+WHERE ((`user_id` = '16'));";i:1;i:1621786862;i:2;s:7:"0.002 s";}i:5;a:2:{i:0;s:40:"use p2430705db;
+select * from tbl_user;";i:1;i:1621786972;}}}}}}messages|a:0:{}

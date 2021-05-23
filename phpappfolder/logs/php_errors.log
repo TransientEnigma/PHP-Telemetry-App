@@ -1,0 +1,56 @@
+[16-May-2021 02:29:30 UTC] PHP Warning:  Failed to load H:\p3t\phpappfolder\xdebug\php_xdebug-2.9.6-7.4-vc15-x86_64.dll, The system cannot find the file specified.
+ in Unknown on line 0
+[16-May-2021 02:29:30 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xml' (tried: c:/user/php/ext/php_xml (The specified module could not be found.), c:/user/php/ext/php_php_xml.dll (The specified module could not be found.)) in Unknown on line 0
+[16-May-2021 02:29:30 UTC] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[16-May-2021 02:29:31 UTC] PHP Warning:  Failed to load H:\p3t\phpappfolder\xdebug\php_xdebug-2.9.6-7.4-vc15-x86_64.dll, The system cannot find the file specified.
+ in Unknown on line 0
+[16-May-2021 02:29:31 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xml' (tried: c:/user/php/ext/php_xml (The specified module could not be found.), c:/user/php/ext/php_php_xml.dll (The specified module could not be found.)) in Unknown on line 0
+[16-May-2021 02:29:31 UTC] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[18-May-2021 14:45:51 UTC] PHP Warning:  Failed to load H:\p3t\phpappfolder\xdebug\php_xdebug-2.9.6-7.4-vc15-x86_64.dll, The system cannot find the file specified.
+ in Unknown on line 0
+[18-May-2021 14:45:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xml' (tried: c:/user/php/ext/php_xml (The specified module could not be found.), c:/user/php/ext/php_php_xml.dll (The specified module could not be found.)) in Unknown on line 0
+[18-May-2021 14:45:51 UTC] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[18-May-2021 14:45:52 UTC] PHP Warning:  Failed to load H:\p3t\phpappfolder\xdebug\php_xdebug-2.9.6-7.4-vc15-x86_64.dll, The system cannot find the file specified.
+ in Unknown on line 0
+[18-May-2021 14:45:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xml' (tried: c:/user/php/ext/php_xml (The specified module could not be found.), c:/user/php/ext/php_php_xml.dll (The specified module could not be found.)) in Unknown on line 0
+[18-May-2021 14:45:52 UTC] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[18-May-2021 14:58:01 UTC] PHP Warning:  Failed to load H:\p3t\phpappfolder\xdebug\php_xdebug-2.9.6-7.4-vc15-x86_64.dll, The system cannot find the file specified.
+ in Unknown on line 0
+[18-May-2021 14:58:01 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xml' (tried: c:/user/php/ext/php_xml (The specified module could not be found.), c:/user/php/ext/php_php_xml.dll (The specified module could not be found.)) in Unknown on line 0
+[18-May-2021 14:58:01 UTC] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[18-May-2021 14:58:02 UTC] PHP Warning:  Failed to load H:\p3t\phpappfolder\xdebug\php_xdebug-2.9.6-7.4-vc15-x86_64.dll, The system cannot find the file specified.
+ in Unknown on line 0
+[18-May-2021 14:58:02 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xml' (tried: c:/user/php/ext/php_xml (The specified module could not be found.), c:/user/php/ext/php_php_xml.dll (The specified module could not be found.)) in Unknown on line 0
+[18-May-2021 14:58:02 UTC] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[21-May-2021 17:17:37 UTC] PHP Warning:  Failed to load H:\p3t\phpappfolder\xdebug\php_xdebug-2.9.6-7.4-vc15-x86_64.dll, The system cannot find the file specified.
+ in Unknown on line 0
+[21-May-2021 17:17:37 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xml' (tried: c:/user/php/ext/php_xml (The specified module could not be found.), c:/user/php/ext/php_php_xml.dll (The specified module could not be found.)) in Unknown on line 0
+[21-May-2021 17:17:37 UTC] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[21-May-2021 17:17:38 UTC] PHP Warning:  Failed to load H:\p3t\phpappfolder\xdebug\php_xdebug-2.9.6-7.4-vc15-x86_64.dll, The system cannot find the file specified.
+ in Unknown on line 0
+[21-May-2021 17:17:38 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xml' (tried: c:/user/php/ext/php_xml (The specified module could not be found.), c:/user/php/ext/php_php_xml.dll (The specified module could not be found.)) in Unknown on line 0
+[21-May-2021 17:17:38 UTC] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[21-May-2021 23:05:42 UTC] PHP Warning:  Failed to load H:\p3t\phpappfolder\xdebug\php_xdebug-2.9.8-7.4-vc15-x86_64.dll, The system cannot find the file specified.
+ in Unknown on line 0
+[21-May-2021 23:05:42 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xml' (tried: c:/user/php/ext/php_xml (The specified module could not be found.), c:/user/php/ext/php_php_xml.dll (The specified module could not be found.)) in Unknown on line 0
+[21-May-2021 23:05:42 UTC] PHP Warning:  Failed to load H:\p3t\phpappfolder\xdebug\php_xdebug-2.9.8-7.4-vc15-x86_64.dll, The system cannot find the file specified.
+ in Unknown on line 0
+[21-May-2021 23:05:42 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xml' (tried: c:/user/php/ext/php_xml (The specified module could not be found.), c:/user/php/ext/php_php_xml.dll (The specified module could not be found.)) in Unknown on line 0
+[21-May-2021 23:06:17 UTC] PHP Warning:  Failed to load H:\p3t\phpappfolder\xdebug\php_xdebug-2.9.6-7.4-vc15-x86_64.dll, The system cannot find the file specified.
+ in Unknown on line 0
+[21-May-2021 23:06:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xml' (tried: c:/user/php/ext/php_xml (The specified module could not be found.), c:/user/php/ext/php_php_xml.dll (The specified module could not be found.)) in Unknown on line 0
+[21-May-2021 23:06:17 UTC] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[21-May-2021 23:06:18 UTC] PHP Warning:  Failed to load H:\p3t\phpappfolder\xdebug\php_xdebug-2.9.6-7.4-vc15-x86_64.dll, The system cannot find the file specified.
+ in Unknown on line 0
+[21-May-2021 23:06:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xml' (tried: c:/user/php/ext/php_xml (The specified module could not be found.), c:/user/php/ext/php_php_xml.dll (The specified module could not be found.)) in Unknown on line 0
+[21-May-2021 23:06:18 UTC] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[23-May-2021 15:05:26 UTC] PHP Warning:  Failed to load H:\p3t\phpappfolder\xdebug\php_xdebug-2.9.6-7.4-vc15-x86_64.dll, The system cannot find the file specified.
+ in Unknown on line 0
+[23-May-2021 15:05:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xml' (tried: c:/user/php/ext/php_xml (The specified module could not be found.), c:/user/php/ext/php_php_xml.dll (The specified module could not be found.)) in Unknown on line 0
+[23-May-2021 15:05:26 UTC] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[23-May-2021 15:05:26 UTC] PHP Warning:  Failed to load H:\p3t\phpappfolder\xdebug\php_xdebug-2.9.6-7.4-vc15-x86_64.dll, The system cannot find the file specified.
+ in Unknown on line 0
+[23-May-2021 15:05:26 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_xml' (tried: c:/user/php/ext/php_xml (The specified module could not be found.), c:/user/php/ext/php_php_xml.dll (The specified module could not be found.)) in Unknown on line 0
+[23-May-2021 15:05:26 UTC] PHP Warning:  Module 'soap' already loaded in Unknown on line 0
+[23-May-2021 16:46:48 Europe/London] PHP Warning:  require(src/UuserEncrypt.php): failed to open stream: No such file or directory in H:\p3t\phpappfolder\includes\Team-20-3110-AG\app\srcs.php on line 21
+[23-May-2021 16:46:48 Europe/London] PHP Fatal error:  require(): Failed opening required 'src/UuserEncrypt.php' (include_path='.;H:\p3t\phpappfolder\includes') in H:\p3t\phpappfolder\includes\Team-20-3110-AG\app\srcs.php on line 21

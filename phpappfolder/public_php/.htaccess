@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^$ Team-20-3110-AG [L]
+</IfModule>

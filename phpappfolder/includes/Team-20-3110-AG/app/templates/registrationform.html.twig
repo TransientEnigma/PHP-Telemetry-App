@@ -1,0 +1,27 @@
+{% extends 'navbar.html.twig' %}
+{% block content %}
+    <div class="container">
+        <h1>{{ page_heading_1 }}</h1>
+        <p class="text-warning">{{ page_error }}</p>
+        <form method="POST" action="{{path_for('processregistration')}}">
+            <fieldset>
+                <div class="form-group">
+                    <label class="col-form-label" for="mobile">Mobile Phone No.</label>
+                    <input type="text" class="form-control" placeholder="441234567890" id="mobile" name="mobile">
+                    <p class="text-warning">{{ mobile_error }}</p>
+                </div>
+                <div class="form-group">
+                    <label class="col-form-label" for="username">Username</label>
+                    <input type="text" class="form-control" placeholder="username" id="username" name="username">
+                    <p class="text-warning">{{ username_error }}</p>
+                </div>
+                <div class="form-group">
+                    <label class="col-form-label" for="password">Password</label>
+                    <input type="text" class="form-control" placeholder="password" id="password" name="password">
+                    <p class="text-warning">{{ password_error }}</p>
+                </div>
+                       <button type="submit" class="btn btn-primary" name="submit" value="submit">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+{% endblock %}

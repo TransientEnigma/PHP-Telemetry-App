@@ -1,0 +1,19 @@
+{% extends 'navbar.html.twig' %}
+{% block content %}
+    <div class="container ">
+        <h1>{{ page_heading_1 }}</h1>
+        <p>{{ page_text }}</p>
+        <div class="container overflow-auto" style="height: 70% !important; width: 100%" id="content">
+            <form method="POST" action="{{path_for('processreaddata')}}">
+                <fieldset>
+                    <div >
+                        This option reads any new postings that have been created by telemetry devices which have a device ID beginning with the
+                        letters AG and if valid stores them in a database for later reporting.
+                    </div>
+                    <br><br>
+                    <button type="submit" class="btn btn-primary btn-lg btn-outline-secondary rounded-buttons" name="submit" value="submit">READ</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+{% endblock %}

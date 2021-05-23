@@ -1,0 +1,25 @@
+{% extends 'navbar.html.twig' %}
+{% block content %}
+    <div id="pagetop">
+        <h1>{{ page_heading_1 }}</h1>
+        <p>{{ page_text }}</p>
+    </div>
+            <div class="container">
+               <form method="POST" action="{{path_for('processviewdata')}}">
+               <div class="row">
+                   <div class="col-sm">
+                       <button name="choice" type="submit" value="today">TODAY</button>
+                   </div>
+                   <div class="col-sm">
+                       <button name="choice" type="submit" value="yesterday">YESTERDAY</button>
+                   </div>
+                   <div class="col-sm">
+                       <button name="choice" type="submit" value="week">LAST 7 DAYS</button>
+                   </div>
+           </div>
+           </form>
+            <br>
+            <div id="message"></div>
+        </div>
+
+{% endblock %}

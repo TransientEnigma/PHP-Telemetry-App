@@ -1,0 +1,31 @@
+{% extends 'navbar.html.twig' %}
+{% block content %}
+    <div>
+        <h2>{{ page_heading_1 }}</h2>
+        <p>{{ page_text }}</p>
+    </div>
+    <div class="container">
+    <div class="container">
+
+        <div class="jumbotron">
+            <h2 class="display-3">User Login</h2>
+            <p class="lead"></p>
+            <hr class="my-4">
+            <p></p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="{{ path_for('userlogin') }}" role="button">Registered User</a>
+            </p>
+        </div>
+        <div class="jumbotron">
+            <h2 class="display-3">Admin Login</h2>
+            <p class="lead"></p>
+            <hr class="my-4">
+            <p></p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="{{ path_for('adminlogin') }}" role="button">Administrator</a>
+            </p>
+        </div>
+    </div>
+    </div>
+
+{% endblock %}

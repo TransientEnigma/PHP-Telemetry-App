@@ -1,0 +1,34 @@
+{% extends 'navbar.html.twig' %}
+{% block content %}
+    <div id="pagetop">
+        <h1>{{ page_heading_1 }}</h1>
+        <p>{{ page_text }}</p>
+    </div>
+    <div class="container overflow-auto" style="height: 400px !important;" id="content">
+       <div class="container" >
+        <form>
+            <fieldset>
+                <label class="col-form-label"><b>Temperature &#8451;</b></label>
+                <div class="form-group row">
+
+                <div class="form-group col-2">
+                    <label class="col-form-label" for="min">Min</label>
+                    <input type="number" class="form-control" placeholder="-99 to +500" id="min" name="min" min="-99"  max="500">
+                </div>
+                <div class="form-group col-2">
+                    <label class="col-form-label" for="max">Max</label>
+                    <input type="number" class="form-control" placeholder="-99 to +500" id="max" name="max" min="-99"  max="500" >
+                </div>
+                </div>
+                <div class="form-group col-3">
+                    <label class="col-form-label" for="interval"><b>Interval (seconds)</b></label>
+                    <input type="number" class="form-control" placeholder="5 to 100" min="5"  max="100" id="interval" name="interval" size="20">
+                </div>
+                    <input type="button" class="btn btn-primary" name="auto" onclick="doAuto()" value="TRANSMIT">
+            </fieldset>
+        </form>
+            <br>
+            <div id="message"></div>
+        </div>
+    </div>
+{% endblock %}
