@@ -1,6 +1,13 @@
 /**
- * JQuery to toggle device pushbutton switches and for temperature adjustment
+ * customjquery.js
+ * Author: J Masiano
+ * Email: P2430705@my365.dmu.ac.uk
+ * Date: 18/12/2020
+ *
+ * @author J Masiano <P2430705@my365.dmu.ac.uk>
+ * @copyright DGJ Project Group - 20-3110-AG
  */
+
 //the switches are bootstrap checkbox controls and need extra jquery to toggle them
 $(function (){
     $("#switchToggle1").click(function(){
